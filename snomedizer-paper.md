@@ -28,9 +28,7 @@ journal: JOSS
 ---
 
 
-```{r include=FALSE}
-library(dplyr)
-```
+
 
 # Summary
 
@@ -137,21 +135,31 @@ snomedizer has a companion website with all documentation and tutorials (https:/
 
 The latest release of snomedizer may be installed directly from its GitHub repository thanks to the devtools library:
 
-```{r eval=FALSE}
+
+```r
 install.packages("devtools")
 devtools::install_github("ramses-antibiotics/snomedizer")
 ```
 
 On load, snomedizer tries to connect to the "MAIN" branch of a public Snowstorm endpoint, usually one of the endpoints maintained by SNOMED International. 
 
-```{r load-packages}
+
+```r
 library(snomedizer)
+```
+
+```
+## The following SNOMED CT Terminology Server has been selected:
+## https://snowstorm.ihtsdotools.org/snowstorm/snomed-ct
+## This server may be used for reference purposes only.
+## It MUST NOT be used in production. Please refer to ?snomedizer for details.
 ```
 
 The user is able to connect to another endpoint and/or branch:
 
 
-```{r change-branch}
+
+```r
 snomedizer_options_set(
    endpoint = "https://snowstorm.ihtsdotools.org/snowstorm/snomed-ct",
    branch = "MAIN/SNOMEDCT-US"
@@ -162,25 +170,137 @@ snomedizer_options_set(
 
 Using the `concept_find()` wrapper function, users can retrieve concepts using either an identifier or a term search. The default `limit` is set to 50 results, but a user may raise this to up to a maximum of 10,000 results.
 
-```{r retrieve-concepts}
+
+```r
 concept_233604007 <- concept_find(conceptId = "233604007")
 str(concept_233604007)
+```
 
+```
+## 'data.frame':	1 obs. of  16 variables:
+##  $ conceptId       : chr "233604007"
+##  $ active          : logi TRUE
+##  $ definitionStatus: chr "FULLY_DEFINED"
+##  $ moduleId        : chr "900000000000207008"
+##  $ effectiveTime   : chr "20150131"
+##  $ id              : chr "233604007"
+##  $ idAndFsnTerm    : chr "233604007 | Pneumonia (disorder) |"
+##  $ fsn.term        : chr "Pneumonia (disorder)"
+##  $ fsn.lang        : chr "en"
+##  $ pt.term         : chr "Pneumonia"
+##  $ pt.lang         : chr "en"
+##  $ total           : int 1
+##  $ limit           : int 50
+##  $ offset          : int 0
+##  $ searchAfter     : chr "WyIyMzM2MDQwMDciXQ=="
+##  $ searchAfterArray: chr "233604007"
+```
+
+```r
 concepts_pneumo <- concept_find(term = "pneumonia", limit = 2)
+```
+
+```
+## Warning: 
+## This server request returned just 2 of a total 601 results.
+## Please increase the server `limit` to fetch all results.
+```
+
+```r
 str(concepts_pneumo)
+```
+
+```
+## 'data.frame':	2 obs. of  16 variables:
+##  $ conceptId       : chr  "233604007" "161525004"
+##  $ active          : logi  TRUE TRUE
+##  $ definitionStatus: chr  "FULLY_DEFINED" "FULLY_DEFINED"
+##  $ moduleId        : chr  "900000000000207008" "900000000000207008"
+##  $ effectiveTime   : chr  "20150131" "20040731"
+##  $ id              : chr  "233604007" "161525004"
+##  $ idAndFsnTerm    : chr  "233604007 | Pneumonia (disorder) |" "161525004 | History of pneumonia (situation) |"
+##  $ fsn.term        : chr  "Pneumonia (disorder)" "History of pneumonia (situation)"
+##  $ fsn.lang        : chr  "en" "en"
+##  $ pt.term         : chr  "Pneumonia" "H/O: pneumonia"
+##  $ pt.lang         : chr  "en" "en"
+##  $ total           : int  601 601
+##  $ limit           : int  2 2
+##  $ offset          : int  0 0
+##  $ searchAfter     : chr  "WzE2MTUyNTAwNF0=" "WzE2MTUyNTAwNF0="
+##  $ searchAfterArray: int  161525004 161525004
 ```
 
 Wrapper functions can handle more than a single concept:
 
-```{r multiconcepts}
+
+```r
 dm_and_pneumo <- concept_descendants(conceptId = c("233604007", "73211009"))
+```
+
+```
+## Warning: 
+## This server request returned just 50 of a total 228 results.
+## Please increase the server `limit` to fetch all results.
+```
+
+```
+## Warning: 
+## This server request returned just 50 of a total 118 results.
+## Please increase the server `limit` to fetch all results.
+```
+
+```r
 str(dm_and_pneumo[["233604007"]])
+```
+
+```
+## 'data.frame':	50 obs. of  16 variables:
+##  $ conceptId       : chr  "882784691000119100" "10625751000119106" "10625711000119105" "10625671000119106" ...
+##  $ active          : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
+##  $ definitionStatus: chr  "FULLY_DEFINED" "FULLY_DEFINED" "FULLY_DEFINED" "FULLY_DEFINED" ...
+##  $ moduleId        : chr  "900000000000207008" "900000000000207008" "900000000000207008" "900000000000207008" ...
+##  $ effectiveTime   : chr  "20200731" "20150731" "20150731" "20150731" ...
+##  $ id              : chr  "882784691000119100" "10625751000119106" "10625711000119105" "10625671000119106" ...
+##  $ idAndFsnTerm    : chr  "882784691000119100 | Pneumonia caused by Severe acute respiratory syndrome coronavirus 2 (disorder) |" "10625751000119106 | Bronchopneumonia due to virus (disorder) |" "10625711000119105 | Bronchopneumonia caused by Streptococcus pneumoniae (disorder) |" "10625671000119106 | Bronchopneumonia caused by Streptococcus (disorder) |" ...
+##  $ fsn.term        : chr  "Pneumonia caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" "Bronchopneumonia due to virus (disorder)" "Bronchopneumonia caused by Streptococcus pneumoniae (disorder)" "Bronchopneumonia caused by Streptococcus (disorder)" ...
+##  $ fsn.lang        : chr  "en" "en" "en" "en" ...
+##  $ pt.term         : chr  "Pneumonia caused by SARS-CoV-2" "Bronchopneumonia due to virus" "Bronchopneumonia due to Streptococcus pneumoniae" "Bronchopneumonia due to Streptococcus" ...
+##  $ pt.lang         : chr  "en" "en" "en" "en" ...
+##  $ total           : int  228 228 228 228 228 228 228 228 228 228 ...
+##  $ limit           : int  50 50 50 50 50 50 50 50 50 50 ...
+##  $ offset          : int  0 0 0 0 0 0 0 0 0 0 ...
+##  $ searchAfter     : chr  "WzcyNDQ5ODAwNF0=" "WzcyNDQ5ODAwNF0=" "WzcyNDQ5ODAwNF0=" "WzcyNDQ5ODAwNF0=" ...
+##  $ searchAfterArray: int  724498004 724498004 724498004 724498004 724498004 724498004 724498004 724498004 724498004 724498004 ...
+```
+
+```r
 str(dm_and_pneumo[["73211009"]])
+```
+
+```
+## 'data.frame':	50 obs. of  16 variables:
+##  $ conceptId       : chr  "530558861000132104" "10754881000119104" "10753491000119101" "368521000119107" ...
+##  $ active          : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
+##  $ definitionStatus: chr  "PRIMITIVE" "PRIMITIVE" "PRIMITIVE" "FULLY_DEFINED" ...
+##  $ moduleId        : chr  "900000000000207008" "900000000000207008" "900000000000207008" "900000000000207008" ...
+##  $ effectiveTime   : chr  "20170131" "20140731" "20140731" "20180131" ...
+##  $ id              : chr  "530558861000132104" "10754881000119104" "10753491000119101" "368521000119107" ...
+##  $ idAndFsnTerm    : chr  "530558861000132104 | Atypical diabetes mellitus (disorder) |" "10754881000119104 | Diabetes mellitus in mother complicating childbirth (disorder) |" "10753491000119101 | Gestational diabetes mellitus in childbirth (disorder) |" "368521000119107 | Disorder of nerve co-occurrent and due to type 1 diabetes mellitus (disorder) |" ...
+##  $ fsn.term        : chr  "Atypical diabetes mellitus (disorder)" "Diabetes mellitus in mother complicating childbirth (disorder)" "Gestational diabetes mellitus in childbirth (disorder)" "Disorder of nerve co-occurrent and due to type 1 diabetes mellitus (disorder)" ...
+##  $ fsn.lang        : chr  "en" "en" "en" "en" ...
+##  $ pt.term         : chr  "Atypical diabetes mellitus" "Diabetes mellitus in mother complicating childbirth" "Gestational diabetes mellitus in childbirth" "Disorder of nerve co-occurrent and due to type 1 diabetes mellitus" ...
+##  $ pt.lang         : chr  "en" "en" "en" "en" ...
+##  $ total           : int  118 118 118 118 118 118 118 118 118 118 ...
+##  $ limit           : int  50 50 50 50 50 50 50 50 50 50 ...
+##  $ offset          : int  0 0 0 0 0 0 0 0 0 0 ...
+##  $ searchAfter     : chr  "WzYwOTU2MzAwOF0=" "WzYwOTU2MzAwOF0=" "WzYwOTU2MzAwOF0=" "WzYwOTU2MzAwOF0=" ...
+##  $ searchAfterArray: int  609563008 609563008 609563008 609563008 609563008 609563008 609563008 609563008 609563008 609563008 ...
 ```
 
 Functions from the dplyr library such as `select()`, `mutate()`, `transmute()`, `filter()` and `arrange()` can be chained to wrapper functions using the `%>%` piping operator
 
-```{r retrieve-descendants-}
+
+```r
 library(dplyr)
 concept_ancestors(conceptId = "233604007") %>% 
    .[["233604007"]] %>% 
@@ -188,9 +308,22 @@ concept_ancestors(conceptId = "233604007") %>%
    filter(grepl("finding", fsn.term))
 ```
 
+```
+##   conceptId                                  fsn.term
+## 1 609623002          Finding of upper trunk (finding)
+## 2 406123005        Viscus structure finding (finding)
+## 3 404684003                Clinical finding (finding)
+## 4 302292003      Finding of trunk structure (finding)
+## 5 301230006                    Lung finding (finding)
+## 6 301226008 Lower respiratory tract finding (finding)
+## 7 298705000     Finding of region of thorax (finding)
+## 8 106048009             Respiratory finding (finding)
+```
+
 Functions comply with the tidy data principles [@Wickham2014]. For instance, the `concept_is()` function can be used within the `mutate()` call to create a new column in a data frame indicating whether concepts listed in a given column are bacterial infections (as opposed to viral, or unspecified infection types).
 
-```{r pneumonia_types}
+
+```r
 pneumonia_type <- dm_and_pneumo[["233604007"]] %>% 
    select(conceptId, pt.term) %>% 
    mutate(bacterial = concept_is(
@@ -200,6 +333,15 @@ pneumonia_type <- dm_and_pneumo[["233604007"]] %>%
 
 # printing the first 5 concepts
 head(pneumonia_type[, c("pt.term", "bacterial")], 5)
+```
+
+```
+##                                            pt.term bacterial
+## 1                   Pneumonia caused by SARS-CoV-2     FALSE
+## 2                    Bronchopneumonia due to virus     FALSE
+## 3 Bronchopneumonia due to Streptococcus pneumoniae      TRUE
+## 4            Bronchopneumonia due to Streptococcus      TRUE
+## 5    Bronchopneumonia due to Staphylococcus aureus      TRUE
 ```
 
 
@@ -215,7 +357,8 @@ For instance, one can use the SNOMED CT ontology (with full inference) to search
 
 This query shows *Enterobacteriaceae* bacteria are associated with infections affecting a range of body systems, including the respiratory, urinary, and digestive systems.
 
-```{r ecl-query}
+
+```r
 enterobac_infections <- concept_find(
   ecl = "<<40733004 | Infectious disease (disorder) | :  
              246075003 |Causative agent|  =  <<106544002",
@@ -224,6 +367,19 @@ enterobac_infections <- concept_find(
 
 # print the names of the first 10 concepts
 head(enterobac_infections$pt.term, 10)
+```
+
+```
+##  [1] "Bronchopneumonia due to Klebsiella pneumoniae"                          
+##  [2] "Bronchopneumonia due to Escherichia coli"                               
+##  [3] "Salmonella pyelonephritis"                                              
+##  [4] "Urinary tract infection caused by Klebsiella"                           
+##  [5] "Infection due to Shiga toxin producing Escherichia coli"                
+##  [6] "Infection due to Escherichia coli O157"                                 
+##  [7] "Septic shock co-occurrent with acute organ dysfunction due to Serratia" 
+##  [8] "Sepsis without acute organ dysfunction caused by Serratia species"      
+##  [9] "Enteritis of small intestine caused by enterotoxigenic Escherichia coli"
+## [10] "Pneumonia caused by Enterobacter"
 ```
 
 
