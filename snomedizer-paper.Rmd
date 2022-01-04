@@ -60,7 +60,7 @@ The characterisation of SNOMED CT by @Bhattacharyya2016 is as follows:
 
 SNOMED CT is currently used in more than 80 countries and is present in over 70% of clinical systems commercialised in Europe and North America [@snomed2020; @snomedvalue2021]. Some jurisdictions now mandate its use by healthcare providers [@HISO10048; @SCCI0034; @DAPB4013; @DAPB4017]. 
 
-The SNOMED CT International Edition is released twice a year by a non-for-profit international organisation named SNOMED International. It contains over 354,000 concepts at the time of writing. Member organisations of SNOMED International are responsible for publishing national  extensions. For example, the UK's national release centre publishes a UK clinical extension and a UK drug extension which, together, add in the region of 30,000 concepts.
+The SNOMED CT International Edition is released twice a year by a non-for-profit international organisation named SNOMED International. It contains over 350,000 concepts at the time of writing. Member organisations of SNOMED International are responsible for publishing national  extensions. For example, the UK's national release centre publishes a UK clinical extension and a UK drug extension which, together, add in the region of 30,000 concepts.
 
 ## Clinical terminology services
 
