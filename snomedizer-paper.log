@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.31)  4 JAN 2022 10:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.31)  12 MAY 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,55 +813,40 @@ File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
 ))
 Package hyperref Info: Option `unicode' set `true' on input line 149.
 Package hyperref Info: Option `breaklinks' set `true' on input line 149.
-(/home/pdutey/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count464
-\FV@InFile=\read5
-\FV@TabBox=\box75
-\c@FancyVerbLine=\count465
-\FV@StepNumber=\count466
-\FV@OutFile=\write5
-) (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip91
-\fb@frw=\dimen286
-\fb@frh=\dimen287
-\FrameRule=\dimen288
-\FrameSep=\dimen289
-) (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
+(/home/pdutey/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legacy)
 Package grffile Info: This package is an empty stub for compatibility on input line 40.
 )
-\@quotelevel=\count467
-\@quotereset=\count468
+\@quotelevel=\count464
+\@quotereset=\count465
 (./snomedizer-paper.aux)
 \openout1 = `snomedizer-paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 231.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 231.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 191.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 191.
 (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 231.
-LaTeX Font Info:    ... okay on input line 231.
-Package hyperref Info: Link coloring ON on input line 231.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+Package hyperref Info: Link coloring ON on input line 191.
 (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -869,14 +854,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/home/pdutey/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count469
+\c@section@level=\count466
 )
-LaTeX Info: Redefining \ref on input line 231.
-LaTeX Info: Redefining \pageref on input line 231.
-LaTeX Info: Redefining \nameref on input line 231.
+LaTeX Info: Redefining \ref on input line 191.
+LaTeX Info: Redefining \pageref on input line 191.
+LaTeX Info: Redefining \nameref on input line 191.
 (./snomedizer-paper.out) (./snomedizer-paper.out)
-\@outlinefile=\write6
-\openout6 = `snomedizer-paper.out'.
+\@outlinefile=\write5
+\openout5 = `snomedizer-paper.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -902,8 +887,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'snomedizer-paper.bbl' not found.
 No file snomedizer-paper.bbl.
-Package biblatex Info: Reference section=0 on input line 231.
-Package biblatex Info: Reference segment=0 on input line 231.
+Package biblatex Info: Reference section=0 on input line 191.
+Package biblatex Info: Reference segment=0 on input line 191.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -938,11 +923,11 @@ Package biblatex Info: Reference segment=0 on input line 231.
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 231.
-Package microtype Info: Applying patch `item' on input line 231.
-Package microtype Info: Applying patch `toc' on input line 231.
-Package microtype Info: Applying patch `eqnum' on input line 231.
-Package microtype Info: Applying patch `footnote' on input line 231.
+LaTeX Info: Redefining \microtypecontext on input line 191.
+Package microtype Info: Applying patch `item' on input line 191.
+Package microtype Info: Applying patch `toc' on input line 191.
+Package microtype Info: Applying patch `eqnum' on input line 191.
+Package microtype Info: Applying patch `footnote' on input line 191.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -958,26 +943,26 @@ Package microtype Info: Loading generic protrusion settings for font family
 (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 232.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192.
 (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 232.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192.
 (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/home/pdutey/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-Package hyperref Warning: Suppressing link with empty target on input line 258.
+Package hyperref Warning: Suppressing link with empty target on input line 218.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 258.
+Package hyperref Warning: Suppressing link with empty target on input line 218.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 258.
+Package hyperref Warning: Suppressing link with empty target on input line 218.
 
 File: pneumonia_diagram.png Graphic file (type bmp)
 <pneumonia_diagram.png>
@@ -991,12 +976,17 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 325.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 291.
 [1
 
 ]
-Underfull \hbox (badness 1226) in paragraph at lines 357--367
-\TU/lmr/m/n/10 and retrieving information from concepts, their synonyms, or their relationships.
+Underfull \hbox (badness 3930) in paragraph at lines 327--333
+[]\TU/lmr/m/n/10 rapidly reclassifying concepts into higher-level categories (ascendants), eg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--333
+\TU/lmtt/m/n/10 312371005 | Acute infective bronchitis (disorder) | \TU/lmr/m/n/10 to \TU/lmtt/m/n/10 50417007 |
  []
 
 File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
@@ -1009,6 +999,15 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 400--403
+[]\TU/lmtt/m/n/10 concept_ancestors() \TU/lmr/m/n/10 and \TU/lmtt/m/n/10 concept_descendants() \TU/lmr/m/n/10 fetch active ances-
+ []
+
+
+Overfull \hbox (9.93143pt too wide) in paragraph at lines 421--428
+\TU/lmr/m/n/10 national. These endpoints can be discovered with the \TU/lmtt/m/n/10 snomed_public_endpoint_suggest()
+ []
+
 File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
 </home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
 
@@ -1019,18 +1018,18 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 [3]
-Underfull \hbox (badness 3930) in paragraph at lines 474--480
-[]\TU/lmr/m/n/10 rapidly reclassifying concepts into higher-level categories (ascendants), eg
+Overfull \hbox (31.33138pt too wide) in paragraph at lines 501--505
+\TU/lmr/m/n/10 trieved from [][]$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--480
-\TU/lmtt/m/n/10 312371005 | Acute infective bronchitis (disorder) | \TU/lmr/m/n/10 to \TU/lmtt/m/n/10 50417007 |
+Underfull \hbox (badness 10000) in paragraph at lines 506--510
+\TU/lmr/m/n/10 Retrieved from [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--544
-[]\TU/lmtt/m/n/10 concept_ancestors() \TU/lmr/m/n/10 and \TU/lmtt/m/n/10 concept_descendants()\TU/lmr/m/n/10 : fetch active ances-
+Overfull \hbox (36.48135pt too wide) in paragraph at lines 506--510
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
@@ -1043,220 +1042,22 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 [4]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 580.
-
-Overfull \hbox (22.16139pt too wide) in paragraph at lines 599--599
-[]\TU/lmtt/m/n/10 ## It MUST NOT be used in production. Please refer to ?snomedizer for details.[] 
- []
-
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
-
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[5]
-Overfull \hbox (211.16139pt too wide) in paragraph at lines 674--674
-[]\TU/lmtt/m/n/10 ##  $ idAndFsnTerm    : chr  "233604007 | Pneumonia (disorder) |" "161525004 | History of pneumonia (situation) |"[] 
- []
-
-
-Overfull \hbox (64.16139pt too wide) in paragraph at lines 675--675
-[]\TU/lmtt/m/n/10 ##  $ fsn.term        : chr  "Pneumonia (disorder)" "History of pneumonia (situation)"[] 
- []
-
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
-
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[6]
-Overfull \hbox (205.91139pt too wide) in paragraph at lines 714--714
-[]\TU/lmtt/m/n/10 ##  $ conceptId       : chr  "882784691000119100" "10625751000119106" "10625711000119105" "10625671000119106" ...[] 
- []
-
-
-Overfull \hbox (116.66139pt too wide) in paragraph at lines 716--716
-[]\TU/lmtt/m/n/10 ##  $ definitionStatus: chr  "FULLY_DEFINED" "FULLY_DEFINED" "FULLY_DEFINED" "FULLY_DEFINED" ...[] 
- []
-
-
-Overfull \hbox (221.66139pt too wide) in paragraph at lines 717--717
-[]\TU/lmtt/m/n/10 ##  $ moduleId        : chr  "900000000000207008" "900000000000207008" "900000000000207008" "900000000000207008" ...[] 
- []
-
-
-Overfull \hbox (11.66139pt too wide) in paragraph at lines 718--718
-[]\TU/lmtt/m/n/10 ##  $ effectiveTime   : chr  "20200731" "20150731" "20150731" "20150731" ...[] 
- []
-
-
-Overfull \hbox (205.91139pt too wide) in paragraph at lines 719--719
-[]\TU/lmtt/m/n/10 ##  $ id              : chr  "882784691000119100" "10625751000119106" "10625711000119105" "10625671000119106" ...[] 
- []
-
-
-Overfull \hbox (1523.66139pt too wide) in paragraph at lines 720--720
-[]\TU/lmtt/m/n/10 ##  $ idAndFsnTerm    : chr  "882784691000119100 | Pneumonia caused by Severe acute respiratory syndrome coronavirus 2 (disorder) |" "10625751000119106 | Bronchopneumonia due to virus (disorder) |" "10625711000119105 | Bronchopneumonia caused by Streptococcus pneumoniae (disorder) |" "10625671000119106 | Bronchopneumonia caused by Streptococcus (disorder) |" ...[] 
- []
-
-
-Overfull \hbox (1056.41139pt too wide) in paragraph at lines 721--721
-[]\TU/lmtt/m/n/10 ##  $ fsn.term        : chr  "Pneumonia caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" "Bronchopneumonia due to virus (disorder)" "Bronchopneumonia caused by Streptococcus pneumoniae (disorder)" "Bronchopneumonia caused by Streptococcus (disorder)" ...[] 
- []
-
-
-Overfull \hbox (599.66139pt too wide) in paragraph at lines 723--723
-[]\TU/lmtt/m/n/10 ##  $ pt.term         : chr  "Pneumonia caused by SARS-CoV-2" "Bronchopneumonia due to virus" "Bronchopneumonia due to Streptococcus pneumoniae" "Bronchopneumonia due to Streptococcus" ...[] 
- []
-
-
-Overfull \hbox (179.66139pt too wide) in paragraph at lines 728--728
-[]\TU/lmtt/m/n/10 ##  $ searchAfter     : chr  "WzcyNDQ5ODAwNF0=" "WzcyNDQ5ODAwNF0=" "WzcyNDQ5ODAwNF0=" "WzcyNDQ5ODAwNF0=" ...[] 
- []
-
-
-Overfull \hbox (305.66139pt too wide) in paragraph at lines 729--729
-[]\TU/lmtt/m/n/10 ##  $ searchAfterArray: int  724498004 724498004 724498004 724498004 724498004 724498004 724498004 724498004 724498004 724498004 ...[] 
- []
-
-
-Overfull \hbox (195.41139pt too wide) in paragraph at lines 740--740
-[]\TU/lmtt/m/n/10 ##  $ conceptId       : chr  "530558861000132104" "10754881000119104" "10753491000119101" "368521000119107" ...[] 
- []
-
-
-Overfull \hbox (53.66139pt too wide) in paragraph at lines 742--742
-[]\TU/lmtt/m/n/10 ##  $ definitionStatus: chr  "PRIMITIVE" "PRIMITIVE" "PRIMITIVE" "FULLY_DEFINED" ...[] 
- []
-
-
-Overfull \hbox (221.66139pt too wide) in paragraph at lines 743--743
-[]\TU/lmtt/m/n/10 ##  $ moduleId        : chr  "900000000000207008" "900000000000207008" "900000000000207008" "900000000000207008" ...[] 
- []
-
-
-Overfull \hbox (11.66139pt too wide) in paragraph at lines 744--744
-[]\TU/lmtt/m/n/10 ##  $ effectiveTime   : chr  "20170131" "20140731" "20140731" "20180131" ...[] 
- []
-
-
-Overfull \hbox (195.41139pt too wide) in paragraph at lines 745--745
-[]\TU/lmtt/m/n/10 ##  $ id              : chr  "530558861000132104" "10754881000119104" "10753491000119101" "368521000119107" ...[] 
- []
-
-
-Overfull \hbox (1507.91139pt too wide) in paragraph at lines 746--746
-[]\TU/lmtt/m/n/10 ##  $ idAndFsnTerm    : chr  "530558861000132104 | Atypical diabetes mellitus (disorder) |" "10754881000119104 | Diabetes mellitus in mother complicating childbirth (disorder) |" "10753491000119101 | Gestational diabetes mellitus in childbirth (disorder) |" "368521000119107 | Disorder of nerve co-occurrent and due to type 1 diabetes mellitus (disorder) |" ...[] 
- []
-
-
-Overfull \hbox (1051.16139pt too wide) in paragraph at lines 747--747
-[]\TU/lmtt/m/n/10 ##  $ fsn.term        : chr  "Atypical diabetes mellitus (disorder)" "Diabetes mellitus in mother complicating childbirth (disorder)" "Gestational diabetes mellitus in childbirth (disorder)" "Disorder of nerve co-occurrent and due to type 1 diabetes mellitus (disorder)" ...[] 
- []
-
-
-Overfull \hbox (820.16139pt too wide) in paragraph at lines 749--749
-[]\TU/lmtt/m/n/10 ##  $ pt.term         : chr  "Atypical diabetes mellitus" "Diabetes mellitus in mother complicating childbirth" "Gestational diabetes mellitus in childbirth" "Disorder of nerve co-occurrent and due to type 1 diabetes mellitus" ...[] 
- []
-
-
-Overfull \hbox (179.66139pt too wide) in paragraph at lines 754--754
-[]\TU/lmtt/m/n/10 ##  $ searchAfter     : chr  "WzYwOTU2MzAwOF0=" "WzYwOTU2MzAwOF0=" "WzYwOTU2MzAwOF0=" "WzYwOTU2MzAwOF0=" ...[] 
- []
-
-
-Overfull \hbox (305.66139pt too wide) in paragraph at lines 755--755
-[]\TU/lmtt/m/n/10 ##  $ searchAfterArray: int  609563008 609563008 609563008 609563008 609563008 609563008 609563008 609563008 609563008 609563008 ...[] 
- []
-
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
-
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[7]
-Underfull \hbox (badness 1237) in paragraph at lines 823--826
-\TU/lmr/m/n/10 all infections that can be caused by bacteria belonging to \TU/lmtt/m/n/10 106544002 | Family
- []
-
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
-
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[8]
-Overfull \hbox (32.66139pt too wide) in paragraph at lines 870--870
-[]\TU/lmtt/m/n/10 ##  [7] "Septic shock co-occurrent with acute organ dysfunction due to Serratia"[] 
- []
-
-
-Overfull \hbox (6.41139pt too wide) in paragraph at lines 871--871
-[]\TU/lmtt/m/n/10 ##  [8] "Sepsis without acute organ dysfunction caused by Serratia species"[] 
- []
-
-
-Overfull \hbox (37.91139pt too wide) in paragraph at lines 872--872
-[]\TU/lmtt/m/n/10 ##  [9] "Enteritis of small intestine caused by enterotoxigenic Escherichia coli"[] 
- []
-
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
-
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[9]
-Overfull \hbox (31.33138pt too wide) in paragraph at lines 957--961
-\TU/lmr/m/n/10 trieved from [][]$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--966
-\TU/lmr/m/n/10 Retrieved from [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
- []
-
-
-Overfull \hbox (36.48135pt too wide) in paragraph at lines 962--966
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
- []
-
-
-Overfull \hbox (102.36134pt too wide) in paragraph at lines 967--971
+Overfull \hbox (102.36134pt too wide) in paragraph at lines 511--515
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (113.47136pt too wide) in paragraph at lines 967--971
+Overfull \hbox (113.47136pt too wide) in paragraph at lines 511--515
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (3.25136pt too wide) in paragraph at lines 972--976
+Overfull \hbox (3.25136pt too wide) in paragraph at lines 516--520
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (67.25136pt too wide) in paragraph at lines 972--976
+Overfull \hbox (67.25136pt too wide) in paragraph at lines 516--520
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
@@ -1269,30 +1070,20 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
-[10]
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
-
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[11] (./snomedizer-paper.aux)
+[5] (./snomedizer-paper.aux)
 Package rerunfilecheck Info: File `snomedizer-paper.out' has not changed.
-(rerunfilecheck)             Checksum: BF3C5593B7D9654667CBE7A4A32E305A;1677.
+(rerunfilecheck)             Checksum: 519FF19387A8A885861DB9EF34DF4AE5;880.
 Package logreq Info: Writing requests to 'snomedizer-paper.run.xml'.
 \openout1 = `snomedizer-paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36104 strings out of 478256
- 737914 string characters out of 5855870
- 1519513 words of memory out of 5000000
- 56075 multiletter control sequences out of 15000+600000
- 410310 words of font info for 76 fonts, out of 8000000 for 9000
+ 35587 strings out of 478256
+ 729619 string characters out of 5855870
+ 1499388 words of memory out of 5000000
+ 55570 multiletter control sequences out of 15000+600000
+ 410294 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,13n,91p,1013b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,12n,91p,1013b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on snomedizer-paper.pdf (11 pages).
+Output written on snomedizer-paper.pdf (5 pages).
