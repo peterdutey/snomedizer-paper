@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.31)  12 MAY 2022 17:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.31)  7 JUL 2022 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,6 +966,11 @@ Package hyperref Warning: Suppressing link with empty target on input line 218.
 
 File: pneumonia_diagram.png Graphic file (type bmp)
 <pneumonia_diagram.png>
+
+Underfull \hbox (badness 1242) in paragraph at lines 268--277
+\TU/lmr/m/n/10 open-source Java/ElasticSearch application complete with a representational state
+ []
+
 File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
 </home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
 
@@ -976,16 +981,16 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 291.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 290.
 [1
 
 ]
-Underfull \hbox (badness 3930) in paragraph at lines 327--333
+Underfull \hbox (badness 3930) in paragraph at lines 326--332
 []\TU/lmr/m/n/10 rapidly reclassifying concepts into higher-level categories (ascendants), eg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--333
+Underfull \hbox (badness 10000) in paragraph at lines 326--332
 \TU/lmtt/m/n/10 312371005 | Acute infective bronchitis (disorder) | \TU/lmr/m/n/10 to \TU/lmtt/m/n/10 50417007 |
  []
 
@@ -999,12 +1004,12 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 400--403
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
 []\TU/lmtt/m/n/10 concept_ancestors() \TU/lmr/m/n/10 and \TU/lmtt/m/n/10 concept_descendants() \TU/lmr/m/n/10 fetch active ances-
  []
 
 
-Overfull \hbox (9.93143pt too wide) in paragraph at lines 421--428
+Overfull \hbox (9.93143pt too wide) in paragraph at lines 419--426
 \TU/lmr/m/n/10 national. These endpoints can be discovered with the \TU/lmtt/m/n/10 snomed_public_endpoint_suggest()
  []
 
@@ -1018,46 +1023,37 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 [3]
-Overfull \hbox (31.33138pt too wide) in paragraph at lines 501--505
+Overfull \hbox (31.33138pt too wide) in paragraph at lines 471--475
 \TU/lmr/m/n/10 trieved from [][]$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--510
+Underfull \hbox (badness 10000) in paragraph at lines 476--480
 \TU/lmr/m/n/10 Retrieved from [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (36.48135pt too wide) in paragraph at lines 506--510
+Overfull \hbox (36.48135pt too wide) in paragraph at lines 476--480
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
-</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
 
-Package fancyhdr Warning: \headheight is too small (62.59596pt): 
-(fancyhdr)                Make it at least 63.55022pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.55022pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
-
-[4]
-Overfull \hbox (102.36134pt too wide) in paragraph at lines 511--515
+Overfull \hbox (102.36134pt too wide) in paragraph at lines 481--485
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (113.47136pt too wide) in paragraph at lines 511--515
+Overfull \hbox (113.47136pt too wide) in paragraph at lines 481--485
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (3.25136pt too wide) in paragraph at lines 516--520
+Overfull \hbox (3.25136pt too wide) in paragraph at lines 486--490
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (67.25136pt too wide) in paragraph at lines 516--520
+Overfull \hbox (67.25136pt too wide) in paragraph at lines 486--490
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
@@ -1070,20 +1066,30 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
+[4]
+File: /home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png Graphic file (type bmp)
+</home/pdutey/R/x86_64-pc-linux-gnu-library/4.0/rticles/rmarkdown/templates/joss/resources/JOSS-logo.png>
+
+Package fancyhdr Warning: \headheight is too small (62.59596pt): 
+(fancyhdr)                Make it at least 63.55022pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.55022pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
+
 [5] (./snomedizer-paper.aux)
 Package rerunfilecheck Info: File `snomedizer-paper.out' has not changed.
-(rerunfilecheck)             Checksum: 519FF19387A8A885861DB9EF34DF4AE5;880.
+(rerunfilecheck)             Checksum: A1D1F2F44E642C5EC0E21D4E576C28FF;552.
 Package logreq Info: Writing requests to 'snomedizer-paper.run.xml'.
 \openout1 = `snomedizer-paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35587 strings out of 478256
- 729619 string characters out of 5855870
- 1499388 words of memory out of 5000000
- 55570 multiletter control sequences out of 15000+600000
+ 35581 strings out of 478256
+ 729531 string characters out of 5855870
+ 1503905 words of memory out of 5000000
+ 55564 multiletter control sequences out of 15000+600000
  410294 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,12n,91p,1013b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,13n,91p,1013b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on snomedizer-paper.pdf (5 pages).
