@@ -30,9 +30,7 @@ journal: JOSS
 ---
 
 
-```{r include=FALSE}
-library(dplyr)
-```
+
 
 # Summary
 
