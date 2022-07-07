@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.31)  7 JUL 2022 12:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.31)  7 JUL 2022 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,37 +1023,37 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.95425pt}.
 
 [3]
-Overfull \hbox (31.33138pt too wide) in paragraph at lines 471--475
+Overfull \hbox (31.33138pt too wide) in paragraph at lines 479--483
 \TU/lmr/m/n/10 trieved from [][]$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--488
 \TU/lmr/m/n/10 Retrieved from [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (36.48135pt too wide) in paragraph at lines 476--480
+Overfull \hbox (36.48135pt too wide) in paragraph at lines 484--488
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (102.36134pt too wide) in paragraph at lines 481--485
+Overfull \hbox (102.36134pt too wide) in paragraph at lines 489--493
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (113.47136pt too wide) in paragraph at lines 481--485
+Overfull \hbox (113.47136pt too wide) in paragraph at lines 489--493
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (3.25136pt too wide) in paragraph at lines 486--490
+Overfull \hbox (3.25136pt too wide) in paragraph at lines 494--498
 [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (67.25136pt too wide) in paragraph at lines 486--490
+Overfull \hbox (67.25136pt too wide) in paragraph at lines 494--498
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
@@ -1078,16 +1078,16 @@ Package fancyhdr Warning: \headheight is too small (62.59596pt):
 
 [5] (./snomedizer-paper.aux)
 Package rerunfilecheck Info: File `snomedizer-paper.out' has not changed.
-(rerunfilecheck)             Checksum: A1D1F2F44E642C5EC0E21D4E576C28FF;552.
+(rerunfilecheck)             Checksum: C9056E26A614068065DE3259B91645B0;676.
 Package logreq Info: Writing requests to 'snomedizer-paper.run.xml'.
 \openout1 = `snomedizer-paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35581 strings out of 478256
- 729531 string characters out of 5855870
- 1503905 words of memory out of 5000000
- 55564 multiletter control sequences out of 15000+600000
+ 35582 strings out of 478256
+ 729549 string characters out of 5855870
+ 1503089 words of memory out of 5000000
+ 55565 multiletter control sequences out of 15000+600000
  410294 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,13n,91p,1013b,804s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -107,11 +107,9 @@ HTTP requests to Snowstorm have the potential to disclose confidential personal 
 Release 0.3.0 of ``snomedizer`` supports Snowstorm versions 7.6.0-7.9.3. Compatibility with future releases of Snowstorm is be monitored through a review of release notes and a range of regression tests. ``snomedizer`` releases are documented in a change log and state the latest Snowstorm release they are known to support. The package generates user warnings if the configured endpoint is not fully compatible with the current version of ``snomedizer``. Bug reports and requests for new features are encouraged and can be submitted on the package repository (https://github.com/ramses-antibiotics/snomedizer/issues/).
 
 
-<!--
 # Acknowledgements
 
-This project was funded by the National Institute for Health Research (NIHR) [name of NIHR programme (NIHR unique award identifier)/name of part of the NIHR]. The views expressed are those of the author(s) and not necessarily those of the NIHR or the Department of Health and Social Care.
--->
+This project was funded by the National Institute for Health Research (NIHR) [Antimicrobial Resistance Capital Funding award 200652]. The views expressed are those of the authors and not necessarily those of the NIHR or the Department of Health and Social Care.
 
 
 # References
