@@ -106,7 +106,7 @@ A companion website contains all documentation and tutorials (https://snomedizer
 
 HTTP requests to Snowstorm have the potential to disclose confidential personal data, for instance when containing free-text terms or rare and sensitive concepts (eg human immunodeficiency virus infections). Organisations looking to process personal information can build Snowstorm and use ``snomedizer`` on premise behind a firewall to preserve confidentiality.
 
-Release 0.3.0 of ``snomedizer`` supports Snowstorm versions 7.6.0-7.9.3. Compatibility with future releases of Snowstorm is be monitored through a review of release notes and a range of regression tests. ``snomedizer`` releases are documented in a change log and state the latest Snowstorm release they are known to support. The package generates user warnings if the configured endpoint is not fully compatible with the current version of ``snomedizer``. Bug reports and requests for new features are encouraged and can be submitted on the package repository (https://github.com/ramses-antibiotics/snomedizer/issues/).
+Release 0.3.0 of ``snomedizer`` supports Snowstorm versions 7.6.0-7.9.3. Compatibility with future releases of Snowstorm is monitored on the basis of a regular review of release notes and regression testing. ``snomedizer`` releases are documented in a change log and state the latest Snowstorm release they are known to support. The package generates user warnings if the configured endpoint is not fully compatible with the current version of ``snomedizer``. Bug reports and requests for new features are encouraged and can be submitted on the package repository (https://github.com/ramses-antibiotics/snomedizer/issues/).
 
 
 # Acknowledgements
